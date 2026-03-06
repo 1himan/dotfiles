@@ -1,0 +1,274 @@
+# add_newline = true
+# command_timeout = 200
+# format = "[$directory$git_branch$git_status]($style)$character"
+#
+# [character]
+# error_symbol = "[✗](bold cyan)"
+# success_symbol = "[❯](bold cyan)"
+#
+# [directory]
+# truncation_length = 2
+# truncation_symbol = "…/"
+# repo_root_style = "bold cyan"
+# repo_root_format = "[$repo_root]($repo_root_style)[$path]($style)[$read_only]($read_only_style) "
+#
+# [git_branch]
+# format = "[$branch]($style) "
+# style = "italic cyan"
+#
+# [git_status]
+# format     = '[$all_status]($style)'
+# style      = "cyan"
+# ahead      = "⇡${count} "
+# diverged   = "⇕⇡${ahead_count}⇣${behind_count} "
+# behind     = "⇣${count} "
+# conflicted = " "
+# up_to_date = " "
+# untracked  = "? "
+# modified   = " "
+# stashed    = ""
+# staged     = ""
+# renamed    = ""
+# deleted    = ""
+
+"$schema" = "https://starship.rs/config-schema.json"
+
+[character]
+success_symbol = "[](bold fg:#ffffff)"
+error_symbol   = "[](bold fg:#FF2C2C)"
+
+[directory]
+read_only = " 󰌾"
+
+[git_branch]
+symbol = " "
+
+[git_commit]
+tag_symbol = "  "
+
+[hostname]
+ssh_symbol = " "
+
+[memory_usage]
+symbol = "󰍛 "
+
+[status]
+symbol = " "
+
+[package]
+symbol = "󰏗 "
+
+# ---------------- Languages / Tools ---------------- #
+
+[aws]
+symbol = " "
+
+[buf]
+symbol = " "
+format = "[$symbol]($style)"
+
+[bun]
+symbol = " "
+format = "[$symbol]($style)"
+
+[c]
+symbol = " "
+format = "[$symbol($name)]($style)"
+
+[cpp]
+symbol = " "
+format = "[$symbol($name)]($style)"
+
+[cmake]
+symbol = " "
+format = "[$symbol]($style)"
+
+[crystal]
+symbol = " "
+format = "[$symbol]($style)"
+
+[dart]
+symbol = " "
+format = "[$symbol]($style)"
+
+[deno]
+symbol = " "
+format = "[$symbol]($style)"
+
+[elixir]
+symbol = " "
+format = "[$symbol]($style)"
+
+[elm]
+symbol = " "
+format = "[$symbol]($style)"
+
+[fennel]
+symbol = " "
+format = "[$symbol]($style)"
+
+[fortran]
+symbol = " "
+format = "[$symbol]($style)"
+
+[golang]
+symbol = " "
+format = "[$symbol]($style)"
+
+[gradle]
+symbol = " "
+format = "[$symbol]($style)"
+
+[haskell]
+symbol = " "
+format = "[$symbol]($style)"
+
+[haxe]
+symbol = " "
+format = "[$symbol]($style)"
+
+[java]
+symbol = " "
+format = "[$symbol]($style)"
+
+[julia]
+symbol = " "
+format = "[$symbol]($style)"
+
+[kotlin]
+symbol = " "
+format = "[$symbol]($style)"
+
+[lua]
+symbol = " "
+format = "[$symbol]($style)"
+
+[meson]
+symbol = "󰔷 "
+format = "[$symbol]($style)"
+
+[nim]
+symbol = "󰆥 "
+format = "[$symbol]($style)"
+
+[nodejs]
+symbol = " "
+format = "[$symbol]($style)"
+
+[ocaml]
+symbol = " "
+format = "[$symbol(\\($switch_indicator$switch_name\\) )]($style)"
+
+[perl]
+symbol = " "
+format = "[$symbol]($style)"
+
+[php]
+symbol = " "
+format = "[$symbol]($style)"
+
+[pixi]
+symbol = "󰏗 "
+format = "[$symbol($environment )]($style)"
+
+[python]
+symbol = " "
+format = "[$symbol [($virtualenv)](fg:#5df86b)]($style)"
+
+[rlang]
+symbol = "󰟔 "
+format = "[$symbol]($style)"
+
+[ruby]
+symbol = " "
+format = "[$symbol]($style)"
+
+[rust]
+symbol = "󱘗 "
+format = "[$symbol]($style)"
+
+[scala]
+symbol = " "
+format = "[$symbol]($style)"
+
+[swift]
+symbol = " "
+format = "[$symbol]($style)"
+
+[xmake]
+symbol = " "
+format = "[$symbol]($style)"
+
+[zig]
+symbol = " "
+format = "[$symbol]($style)"
+
+# ---------------- Containers / Cloud ---------------- #
+
+[docker_context]
+symbol = " "
+
+[gcloud]
+symbol = " "
+
+[conda]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[guix_shell]
+symbol = " "
+
+# ---------------- OS Symbols ---------------- #
+
+[os.symbols]
+Alpaquita = " "
+Alpine = " "
+AlmaLinux = " "
+Amazon = " "
+Android = " "
+AOSC = " "
+Arch = " "
+Artix = " "
+CachyOS = " "
+CentOS = " "
+Debian = " "
+DragonFly = " "
+Elementary = " "
+Emscripten = " "
+EndeavourOS = " "
+Fedora = " "
+FreeBSD = " "
+Garuda = "󰛓 "
+Gentoo = " "
+HardenedBSD = "󰞌 "
+Illumos = "󰈸 "
+Ios = "󰀷 "
+Kali = " "
+Linux = " "
+Mabox = " "
+Macos = " "
+Manjaro = " "
+Mariner = " "
+MidnightBSD = " "
+Mint = " "
+NetBSD = " "
+NixOS = " "
+Nobara = " "
+OpenBSD = "󰈺 "
+openSUSE = " "
+OracleLinux = "󰌷 "
+Pop = " "
+Raspbian = " "
+Redhat = " "
+RedHatEnterprise = " "
+RockyLinux = " "
+Redox = "󰀘 "
+Solus = "󰠳 "
+SUSE = " "
+Ubuntu = " "
+Unknown = " "
+Void = " "
+Windows = "󰍲 "
+Zorin = " "

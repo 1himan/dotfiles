@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 19f8bace85ff6ba78eec162bf3bff931bc92bbe0 1himan <vanshumahor@gmail.com> 1772177112 +0530	commit (initial): first commit
+19f8bace85ff6ba78eec162bf3bff931bc92bbe0 0000000000000000000000000000000000000000 1himan <vanshumahor@gmail.com> 1772177154 +0530	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 19f8bace85ff6ba78eec162bf3bff931bc92bbe0 1himan <vanshumahor@gmail.com> 1772177154 +0530	Branch: renamed refs/heads/master to refs/heads/main
+19f8bace85ff6ba78eec162bf3bff931bc92bbe0 ae801cda560aa3747b688610fa77ec5559f12681 1himan <vanshumahor@gmail.com> 1772252430 +0530	commit: italic comments
+ae801cda560aa3747b688610fa77ec5559f12681 ae801cda560aa3747b688610fa77ec5559f12681 1himan <vanshumahor@gmail.com> 1772261433 +0530	checkout: moving from main to main
+ae801cda560aa3747b688610fa77ec5559f12681 c97b0caa17cc23e9fea041ac0c399c420a12b341 1himan <vanshumahor@gmail.com> 1772445970 +0530	commit: transparency added

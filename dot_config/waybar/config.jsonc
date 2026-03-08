@@ -167,10 +167,10 @@
       "tray"
     ]
   },
-  "custom/expand-icon": {
-    "format": "",
-    "tooltip": false
-  },
+  // "custom/expand-icon": {
+  //   "format": "",
+  //   "tooltip": false
+  // },
   "custom/screenrecording-indicator": {
     "on-click": "omarchy-cmd-screenrecord",
     "exec": "$OMARCHY_PATH/default/waybar/indicators/screen-recording.sh",

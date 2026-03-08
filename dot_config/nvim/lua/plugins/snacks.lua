@@ -3,13 +3,11 @@ return {
   opts = {
     indent = {
       enabled = true,
-
       config = function(_, opts)
         require("snacks").setup(opts)
 
         vim.api.nvim_set_hl(0, "SnacksIndentScope", {
           fg = "#00C4FF", -- change THIS (active pink line)
-          bold = true,
         })
       end,
     },

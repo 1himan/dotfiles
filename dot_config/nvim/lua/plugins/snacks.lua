@@ -7,7 +7,8 @@ return {
         require("snacks").setup(opts)
 
         vim.api.nvim_set_hl(0, "SnacksIndentScope", {
-          fg = "#00C4FF", -- change THIS (active pink line)
+          -- fg = "#00C4FF", -- change THIS (active pink line)
+          fg = "#00FFFF", -- change THIS (active pink line)
         })
       end,
     },

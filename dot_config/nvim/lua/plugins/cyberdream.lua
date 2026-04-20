@@ -5,7 +5,7 @@ return {
     priority = 1000,
     config = function()
       require("cyberdream").setup({
-        italic_comments = true, -- this enables italic comments
+        italic_comments = true,
       })
     end,
   },

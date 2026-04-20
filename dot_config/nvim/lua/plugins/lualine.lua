@@ -92,7 +92,9 @@ return {
             function()
               return " " .. os.date("%R")
             end,
-            color = function() return { fg = "#ffffff" } end, -- clock set to white, function form avoids some theme overrides
+            color = function()
+              return { fg = "#ffffff" }
+            end, -- clock set to white, function form avoids some theme overrides
           },
         },
       },

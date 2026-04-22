@@ -12,5 +12,6 @@ export PATH="$HOME/.local/bin:$PATH"
 alias p='python'
 alias eve='source venv/bin/activate'
 alias n='nvim'
+alias run='g++ main.cc -o main && ./main rm main'
 
 . "$HOME/.local/share/../bin/env"
